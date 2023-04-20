@@ -8,8 +8,8 @@ class No final {
     }
     int fb; // fator de balanceamento
     int chave;
-    No* esquerda = nullptr;
-    No* direita = nullptr;
+    No* esquerda = NULL;
+    No* direita = NULL;
 };
 
 class ArvoreAVL final {
@@ -33,7 +33,7 @@ class ArvoreAVL final {
     }
 
   private:
-    No* raiz{ nullptr };     
+    No* raiz = NULL;     
 };
 
 void rotacao_esquerda_simples(No* p) {
